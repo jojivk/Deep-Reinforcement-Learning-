@@ -25,12 +25,11 @@
    run_model.py : Runs the saved model
    
 # 5. How to run
- ## 5.1 Dependencies
+ # 5.1 Dependencies
      You would need to install [pytorch](https://github.com/pytorch/pytorch)
      and [Unity ML-Agents environment](https://github.com/Unity-Technologies/ml-agents)
-[pytorch](https://github.com/pytorch/pytorch)
 
- ## 5.2 To run
+# 5.2 To run
      Change the Unity env depending on the OS to point to the Bananas App
      Change the file_name parameter to match the location of the Unity environment that you downloaded.
 
