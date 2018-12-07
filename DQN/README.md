@@ -28,9 +28,10 @@
  ## 5.1 Dependencies
      You would need to install [pytorch](https://github.com/pytorch/pytorch)
      and [Unity ML-Agents environment](https://github.com/Unity-Technologies/ml-agents)
-	
+[I'm an inline-style link](https://www.google.com)
+
  ## 5.2 To run
-     Change the Unit env depending on the OS to point to the Bananas App
+     Change the Unity env depending on the OS to point to the Bananas App
      Change the file_name parameter to match the location of the Unity environment that you downloaded.
 
          Mac: "path/to/Banana.app"
