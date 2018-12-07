@@ -26,10 +26,11 @@
    
 # 5. How to run
  ## 5.1 Dependencies
-     You would need to install 
+  You would need to install 
    [pytorch](https://github.com/pytorch/pytorch)
-     and 
+  and 
    [Unity ML-Agents environment](https://github.com/Unity-Technologies/ml-agents)
+  to run this.
 
  ## 5.2 To run
      Change the Unity env depending on the OS to point to the Bananas App
