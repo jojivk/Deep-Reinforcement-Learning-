@@ -13,21 +13,25 @@
 	3 - turn right.
    The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.The project environment is similar to, but not identical to the Banana Collector environment on the Unity ML-Agents GitHub page.
 
-#2. Frameworks
+# 2. Frameworks
    The solution uses pytorch to build the training n/w and to deply the model network
-#3. Methodology
+# 3. Methodology
    The solution uses the DQN algorithm to optimize picking yellow bananas and avoiding blue ones.
    Please see the architecture for more details
-#4. Modules
+# 4. Modules
    Bananas.py : The code for training banana collector.
    dqn_agent.py Holds the class for DQN networks the primary and target networks. The networks 
    model.py : The actual MLP for the DQN
    run_model.py : Runs the saved model
    
-#5. How to run
- ### 5.1 Dependencies
-     You would need to install [pytorch](https://github.com/pytorch/pytorch)  and [Unity ML-Agents environment](https://github.com/Unity-Technologies/ml-agents)
- ### 5.2 To run
+# 5. How to run
+ ## 5.1 Dependencies
+     You would need to install pytorch
+     	[pytorch](https://github.com/pytorch/pytorch)  
+     and Unity ML-Agents environment
+        [Unity ML-Agents environment](https://github.com/Unity-Technologies/ml-agents)
+	
+ ## 5.2 To run
      Change the Unit env depending on the OS to point to the Bananas App
      Change the file_name parameter to match the location of the Unity environment that you downloaded.
 
