@@ -33,8 +33,8 @@
   to run this.
 
  ## 5.2 To run
-     Change the Unity env depending on the OS to point to the Bananas App
-     Change the file_name parameter to match the location of the Unity environment that you downloaded.
+  Change the Unity env depending on the OS to point to the Bananas App
+  Change the file_name parameter to match the location of the Unity environment that you downloaded.
 
          Mac: "path/to/Banana.app"
          Windows (x86): "path/to/Banana_Windows_x86/Banana.exe"
@@ -44,7 +44,7 @@
          Linux (x86, headless): "path/to/Banana_Linux_NoVis/Banana.x86"
          Linux (x86_64, headless): "path/to/Banana_Linux_NoVis/Banana.x86_64"
 
-     For instance, if you are using a Mac, then you downloaded Banana.app. If this file is in the same folder as the notebook, then the line below should appear as follows:
+  For instance, if you are using a Mac, then you downloaded Banana.app. If this file is in the same folder as the notebook, then the line below should appear as follows:
 
          env = UnityEnvironment(file_name="Banana.app")
 
