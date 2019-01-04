@@ -25,7 +25,12 @@ In this implementation a single agent version of the Reacher environment is solv
   and 
    [Unity ML-Agents environment](https://github.com/Unity-Technologies/ml-agents)
   to run this.
-
+  
+  To set up your python environment to run the code in this repository, follow the 
+  [instructions ](https://github.com/udacity/deep-reinforcement-learning#dependencies)
+  in the [Udacity Deep Reinforcement Learning github repository](https://github.com/udacity/deep-reinforcement-learning)
+  
+  
  ## 5.2 To run
   Change the Unity env depending on the OS to point to the Reacher App
   Change the file_name parameter to match the location of the Unity environment that you downloaded.
@@ -39,3 +44,26 @@ In this implementation a single agent version of the Reacher environment is solv
          Linux (x86_64, headless): "path/to/Reacher_Linux_NoVis/Reacher.x86_64"
 
   For instance, if you are using a Mac, then you downloaded Reacher.app. If this file is in the same folder as the notebook, then the line below should appear as follows:
+  
+  ## 5.3 To train.
+      1. Reacher.app.zip	
+         The Unity Reacher app (Only for Mac). Untar this in Mac
+      2. Reacher.py	 
+         This has the code to train the model. Model wiights will be saved automatically once the target goal of 30+ is reached
+      3. ddpg_agent.py	
+         File that has definition of DDPG class.
+      4. model.py	
+         File that has definition of the MLP model for Actor and Critic.
+     To run training
+      > python Reacher.py
+      
+  ## 5.4 To run,  the trained model 
+      1. Download all the above files for training except Reacher.py, plus the below files
+      2. run_model.py
+         Runs the trained models from the weights
+      3. checkpoint_actor.pth	& checkpoint_critic.pth	
+         Files with trained weights
+         
+      To run trained models
+         > python model.py
+         
