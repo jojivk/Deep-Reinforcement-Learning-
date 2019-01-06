@@ -12,8 +12,7 @@
    The solution uses pytorch to build the training n/w and to deply the model network
    
 # 3. Methodology
-   The solution uses the DDPG algorithm to optimize learning of two agents controlled based on MADDPG algorithm
-   Please see the architecture for more details
+   The approach used to solve this env is [Multi Agent Deep Deterministic Policy Gradients (MADDPG](https://arxiv.org/abs/1706.02275) algorithm. Each agent(player is modeled based on [Deep Deterministic Policy Gradient (DDPG)](https://arxiv.org/pdf/1509.02971.pdf) algorithm. They share some info regarding their actions while training, but none is shared when testing. In short, the solution uses the DDPG algorithm to optimize learning of two agents controlled based on MADDPG algorithm.  Please see the architecture for more details
    
 # 4. Modules
    Tennis.py : The code for training Unity Tennis Env.
