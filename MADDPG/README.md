@@ -1,11 +1,12 @@
 
-# 1. Problem 
+# 1. Problem : Collaboration and Competition   
    Train multiple agents to play a game of Tennis. 
 
-In this environment, JMJ
-   
+   In this environment, the observation space consists of 24 variables corresponding to the position and velocity of the
+   ball and racket for each individual agent. The generated actions are two continuous values, corresponding to movement 
+   to & fro from the net, and jumping.   
 
-In this implementation a single MADDPG agent trains two DDPG agents. The task is episodic, and to solve the environment, the agents must get an average score of 0.50 score over 100 consecutive episodes.
+   In this implementation a single MADDPG agent trains two DDPG agents. The task is episodic, and to solve the environment,    the agents must get an average score of 0.50 score over 100 consecutive episodes.
 
 # 2. Frameworks
    The solution uses pytorch to build the training n/w and to deply the model network
