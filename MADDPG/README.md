@@ -14,15 +14,15 @@
 # 3. Methodology
    The approach used to solve this env is [Multi Agent Deep Deterministic Policy Gradients (MADDPG](https://arxiv.org/abs/1706.02275) algorithm. Each agent(player is modeled based on [Deep Deterministic Policy Gradient (DDPG)](https://arxiv.org/pdf/1509.02971.pdf) algorithm. They share some info regarding their actions while training, but none is shared when testing. In short, the solution uses the DDPG algorithm to optimize learning of two agents controlled based on MADDPG algorithm.  Please see the architecture for more details
    
-# 4. Modules
+  ## 3.1. Modules
    Tennis.py : The code for training Unity Tennis Env.
    maddpg_agent.py : The file that holds two DDPG agents and trains them to play the game
    ddpg_agent.py Holds the class for DDPG networks the primary and target (actor-critic) networks and replay buffer.
    model.py : The actual MLP for the DDPG Actor and Critic Networks
    run_model.py : Runs the saved model
    
-# 5. How to run
- ## 5.1 Dependencies
+# 4. How to run
+ ## 4.1 Dependencies
   You would need to install 
    [pytorch](https://github.com/pytorch/pytorch)
   and 
@@ -34,7 +34,7 @@
   in the [Udacity Deep Reinforcement Learning github repository](https://github.com/udacity/deep-reinforcement-learning)
   
   
- ## 5.2 To run
+ ## 4.2 To run
   Change the Unity env depending on the OS to point to the Reacher App
   Change the file_name parameter to match the location of the Unity environment that you downloaded.
 
@@ -48,7 +48,7 @@
 
   For instance, if you are using a Mac, then you downloaded Reacher.app. If this file is in the same folder as the notebook, then the line below should appear as follows:
   
-  ## 5.3 To train.
+  ## 4.3 To train.
       1. Tennis.app.zip	
          The Unity Tennis app (Only for Mac). Untar this in Mac
       2. Tennis.py	 
@@ -63,7 +63,7 @@
      To run training
       > python Tennis.py
       
-  ## 5.4 To run,  the trained model 
+  ## 4.4 To run,  the trained model 
       1. Download all the above files for training except Tennis.py, plus the below files
       2. run_model.py
          Runs the trained models from the weights
