@@ -7,4 +7,8 @@ Reinforcement learning is rooted in psychological and neurological perspective o
 [Collecting Benanas](https://github.com/jojivk/Deep-Reinforcement-Learning-/tree/master/DQN): This is an implementation of DQN in the Unity Banana collection game type environment.
 
 # 3. DDPG Implementation
-[Reacher Arm](https://github.com/jojivk/Deep-Reinforcement-Learning-/tree/master/DDPG) : Implementation of DDPG to train Reacher arm in Unit Environment
+[Reacher Arm](https://github.com/jojivk/Deep-Reinforcement-Learning-/tree/master/DDPG) : Implementation of DDPG to train Reacher arm in Unity Environment
+
+
+# 3. MADDPG Implementation
+[Tennis](https://github.com/jojivk/Deep-Reinforcement-Learning-/tree/master/MADDPG) : Implementation of MADDPG to train Tennis Unity Environment
