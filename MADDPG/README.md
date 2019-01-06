@@ -15,11 +15,11 @@
    The approach used to solve this env is [Multi Agent Deep Deterministic Policy Gradients (MADDPG](https://arxiv.org/abs/1706.02275) algorithm. Each agent(player is modeled based on [Deep Deterministic Policy Gradient (DDPG)](https://arxiv.org/pdf/1509.02971.pdf) algorithm. They share some info regarding their actions while training, but none is shared when testing. In short, the solution uses the DDPG algorithm to optimize learning of two agents controlled based on MADDPG algorithm.  Please see the architecture for more details
    
   ## 3.1. Modules
-   Tennis.py : The code for training Unity Tennis Env.
-   maddpg_agent.py : The file that holds two DDPG agents and trains them to play the game
-   ddpg_agent.py Holds the class for DDPG networks the primary and target (actor-critic) networks and replay buffer.
-   model.py : The actual MLP for the DDPG Actor and Critic Networks
-   run_model.py : Runs the saved model
+     Tennis.py : The code for training Unity Tennis Env.
+     maddpg_agent.py : The file that holds two DDPG agents and trains them to play the game.
+     ddpg_agent.py Holds the class for DDPG networks the primary and target (actor-critic) networks and replay buffer.
+     model.py : The actual MLP for the DDPG Actor and Critic Networks
+     run_model.py : Runs the saved model
    
 # 4. How to run
  ## 4.1 Dependencies
@@ -49,16 +49,14 @@
   For instance, if you are using a Mac, then you downloaded Reacher.app. If this file is in the same folder as the notebook, then the line below should appear as follows:
   
   ## 4.3 To train.
+    Download following files
       1. Tennis.app.zip	
          The Unity Tennis app (Only for Mac). Untar this in Mac
       2. Tennis.py	 
-         This has the code to train the model. Model wiights will be saved automatically once the target goal of 0.5+ is reached
+          Model weights will be saved automatically once the target goal of 0.5+ is reached
       3. maddpg_agent.py
-         Holds the two agents that are trained to play the game and the replay buffer 
       4. ddpg_agent.py	
-         File that has definition of DDPG class.
       5. model.py	
-         File that has definition of the MLP model for Actor and Critic.
          
      To run training
       > python Tennis.py
@@ -66,7 +64,6 @@
   ## 4.4 To run,  the trained model 
       1. Download all the above files for training except Tennis.py, plus the below files
       2. run_model.py
-         Runs the trained models from the weights
       3. models/checkpoint*.pth*
          Files with trained weights
          
