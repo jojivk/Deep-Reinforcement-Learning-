@@ -10,5 +10,5 @@ Reinforcement learning is rooted in psychological and neurological perspective o
 [Reacher Arm](https://github.com/jojivk/Deep-Reinforcement-Learning-/tree/master/DDPG) : Implementation of DDPG to train Reacher arm in Unity Environment
 
 
-# 3. MADDPG Implementation
+# 4. MADDPG Implementation
 [Tennis](https://github.com/jojivk/Deep-Reinforcement-Learning-/tree/master/MADDPG) : Implementation of MADDPG to train Tennis Unity Environment
